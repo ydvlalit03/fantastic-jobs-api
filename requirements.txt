@@ -1,0 +1,29 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# HTTP client
+httpx==0.28.1
+tenacity==9.0.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+
+# Caching
+cachetools==5.5.0
+
+# Job Title Service (Groq LLM + resume parsing)
+groq==0.11.0
+python-multipart==0.0.12
+python-docx==1.1.2
+PyPDF2==3.0.1
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-httpx==0.35.0
+aiosqlite>=0.20.0
